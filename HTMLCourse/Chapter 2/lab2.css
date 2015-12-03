@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+h2 {
+	color: rgb(215, 0, 0);
+	font-family: Georgia, Times, serif;
+	font-size: 16pt;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	color: #0000AB;
+	font-family: arial, verdana, sans-serif;
+	font-size: .80em;
+}
