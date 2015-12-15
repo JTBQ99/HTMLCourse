@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Lab 6: Tables</title>
+    <style type="text/css">
+        table
+            {
+                border: 2px solid black;
+                border-collapse: collapse;
+                font-family: verdana;
+                
+            }
+        th, td
+            {
+                border: 2px solid black;
+                padding: 2px;
+            }
+        th
+            {
+                font-size: .8em;
+                font-style: !important;
+                background-color: rgb(10,100,250);
+                color: white;
+            }
+        td
+            {
+                font-size: .7em;
+            }
+        .odd
+            {
+                background-color: white;
+                color: rgb(10,100,250);
+            }
+        .even
+            {
+                background-color: rgb(10,100,250);
+                color: white;
+            }
+    </style>
+</head>
+<body>
+    <h1>New York Yankees Pitching Staff</h1>
+    <table>
+        <tr>
+            <th>NO.</th><th>NAME</th><th>POS</th><th>AGE</th><th>BIRTH PLACE</th><th>SALARY</th>
+        </tr>
+        <tr class="odd">
+            <td>38</td><td>Luis Ayala</td><td>RP</td><td>33</td><td>Los Mochis, Mexico</td><td>$650,000</td>
+        </tr>
+        <tr  class="even">
+            <td>66</td><td>Andrew Brackman</td><td>RP</td><td>25</td><td>Cincinnati, OH</td><td>N/A</td>
+        </tr>
+        <tr class="odd">
+            <td>34</td><td>AJ Burnett</td><td>SP</td><td>34</td><td>North Little Rock, AR</td><td>$16,500,000</td>
+        </tr>
+        <tr class="even">
+            <td>40</td><td>Bartolo Colon</td><td>SP</td><td>38</td><td>Altamira, Dominican Republic</td><td>$900,000</td>
+        </tr>
+    </table>
+</body>
+</html>

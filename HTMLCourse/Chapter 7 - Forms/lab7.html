@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Lab 7: Forms</title>
+</head>
+<body>
+    <h1>Hospital Admission Information</h1>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>Patient First Name</td>
+                <td><input type="text" name="pfn" id="pfn"/></td>
+            </tr>
+            <tr>
+                <td>Patient Last Name</td>
+                <td><input type="text" name="pln" id="pln"/></td>
+            </tr>
+            <tr>
+                <td>Patient Email Address</td>
+                <td><input type="text" name="pem" id="pem"/></td>
+            </tr>
+            <tr>
+                <td>Patient Phone Number</td>
+                <td><input type="text" name="ppn" id="ppn"/></td>
+            </tr>
+            <tr>
+                <td>Patient Street Address</td>
+                <td><input type="text" name="psa" id="psa"/></td>
+            </tr>
+            <tr>
+                <td>Patient City</td>
+                <td><input type="text" name="pc" id="pc"/></td>
+            </tr>
+            <tr>
+                <td>Patient State</td>
+                <td><select name="pst"/>
+                    <option value="TX">Texas</option>
+                    <option value="TN">Tennessee</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Patient Zip</td>
+                <td><input type="text" name="pz" id="pz"/></td>
+            </tr>
+            <tr>
+                <td>Patient Age</td>
+                <td><input type="number" name="pa" id="pa" min="0" max="115"/></td>
+            </tr>
+            <tr>
+                <td><input type="reset"/></td>
+                <td><input type="submit" value="Send Form"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

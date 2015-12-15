@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+img {
+		border: 0px;    
+	}
+p   {
+		font-family: Arial;
+		font-size: .75em;
+		color: blue;
+	}
+h4  {
+		font-family: Arial;
+		font-size: .75em;
+		color: red;
+	}
